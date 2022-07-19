@@ -1,0 +1,86 @@
+
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: 1550px;
+}
+
+img {
+  vertical-align: unset;
+  position: absolute;
+  border-radius: 297px;
+  padding: inherit;
+  margin-top: 35px;
+  margin-left: 80px;
+  filter: grayscale(25%);
+  text-align: center;
+  opacity: 80%;
+}
+
+.nav-link {
+  display: inline;
+  padding: 0.5rem 1rem;
+  color: #1a1a1a;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.card{
+  background-color: #e7b2b2cd;
+}
+
+p {
+  margin-top: 0;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1rem;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 10px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 8px;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #1a1a1a;
+}
+
+p {
+  margin-top: 0;
+  margin-right: 2%;
+  margin-left: 1%;
+  margin-bottom: 1rem;
+}
+
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1pxsolidrgba(0,0,0,.125);
+}
+
+button, input, optgroup, select, textarea {
+  margin-top: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+element.style {
+  margin-top: 10px;
+}
+
+.mt-4 {
+  margin-top: 6rem!important;
+}
